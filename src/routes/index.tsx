@@ -33,6 +33,7 @@ import aboutWorkspace from "@/assets/about-workspace.jpg";
 import projectRestaurant from "@/assets/project-restaurant.jpg";
 import projectBarbershop from "@/assets/project-barbershop.jpg";
 import projectCafe from "@/assets/project-cafe.jpg";
+import zezeLogo from "@/assets/zeze-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -141,9 +142,7 @@ function Navbar() {
     >
       <div className="container-x flex h-16 md:h-20 items-center justify-between gap-6">
         <a href="#inicio" aria-label="Zeze — Início" className="flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-foreground text-background font-semibold tracking-tight">
-            Z
-          </span>
+          <img src={zezeLogo.url} alt="Logo Zeze" className="h-9 w-9 rounded-xl object-cover" />
           <span className="text-base font-semibold tracking-tight">Zeze</span>
         </a>
 
@@ -899,7 +898,7 @@ function Footer() {
     <footer className="border-t border-hairline py-12">
       <div className="container-x flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div className="flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-foreground text-background font-semibold">Z</span>
+          <img src={zezeLogo.url} alt="Logo Zeze" className="h-9 w-9 rounded-xl object-cover" />
           <span className="font-semibold tracking-tight">Zeze</span>
         </div>
         <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted-foreground">
