@@ -315,9 +315,8 @@ function Hero() {
 
 function Stats() {
   const items = [
-    { value: 30, suffix: "+", label: "Layouts desenvolvidos" },
     { value: 100, suffix: "%", label: "Sites responsivos" },
-    { value: 90, suffix: "+", label: "Pontuação Lighthouse" },
+    { value: 95, suffix: "+", label: "Pontuação Lighthouse" },
     { value: 24, suffix: "h", label: "Primeira resposta" },
   ];
   return (
