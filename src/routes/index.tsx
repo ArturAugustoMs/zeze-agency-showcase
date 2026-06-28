@@ -142,9 +142,7 @@ function Navbar() {
     >
       <div className="container-x flex h-16 md:h-20 items-center justify-between gap-6">
         <a href="#inicio" aria-label="Zeze — Início" className="flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-foreground text-background font-semibold tracking-tight">
-            Z
-          </span>
+          <img src={zezeLogo.url} alt="Logo Zeze" className="h-9 w-9 rounded-xl object-cover" />
           <span className="text-base font-semibold tracking-tight">Zeze</span>
         </a>
 
