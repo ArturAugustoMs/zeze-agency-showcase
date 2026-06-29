@@ -10,6 +10,7 @@ import {
   FileText,
   Instagram,
   Layers,
+  Linkedin,
   Mail,
   MapPin,
   MessageCircle,
