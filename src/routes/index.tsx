@@ -10,6 +10,7 @@ import {
   FileText,
   Instagram,
   Layers,
+  Linkedin,
   Mail,
   MapPin,
   MessageCircle,
@@ -796,22 +797,22 @@ function Contact() {
             </p>
 
             <div className="mt-12 space-y-5">
-              <a href="mailto:contato@zeze.com.br" className="flex items-center gap-4 group">
+              <a href="mailto:contato.zeze.webdev@gmail.com" className="flex items-center gap-4 group">
                 <span className="grid h-11 w-11 place-items-center rounded-full bg-background/10 border border-background/15 group-hover:bg-background group-hover:text-foreground transition-colors">
                   <Mail className="h-4 w-4" />
                 </span>
                 <span>
                   <span className="block text-xs uppercase tracking-widest text-background/60">E-mail</span>
-                  <span className="block text-base font-medium">contato@zeze.com.br</span>
+                  <span className="block text-base font-medium">contato.zeze.webdev@gmail.com</span>
                 </span>
               </a>
-              <a href="https://wa.me/5500000000000" className="flex items-center gap-4 group">
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 group">
                 <span className="grid h-11 w-11 place-items-center rounded-full bg-background/10 border border-background/15 group-hover:bg-background group-hover:text-foreground transition-colors">
-                  <MessageCircle className="h-4 w-4" />
+                  <Linkedin className="h-4 w-4" />
                 </span>
                 <span>
-                  <span className="block text-xs uppercase tracking-widest text-background/60">WhatsApp</span>
-                  <span className="block text-base font-medium">Conversar agora</span>
+                  <span className="block text-xs uppercase tracking-widest text-background/60">LinkedIn</span>
+                  <span className="block text-base font-medium">Conectar agora</span>
                 </span>
               </a>
               <div className="flex items-center gap-4">
@@ -940,17 +941,16 @@ function HomePage() {
     <main className="bg-background text-foreground antialiased">
       <Navbar />
       <Hero />
+      <Projects />
       <Stats />
       <About />
       <Services />
       <Process />
-      <Projects />
-      <Differentials />
-      <Comparison />
       <Faq />
       <Contact />
       <Footer />
       <WhatsAppFab />
+
       <Toaster position="top-right" richColors closeButton />
     </main>
   );
