@@ -940,17 +940,16 @@ function HomePage() {
     <main className="bg-background text-foreground antialiased">
       <Navbar />
       <Hero />
+      <Projects />
       <Stats />
       <About />
       <Services />
       <Process />
-      <Projects />
-      <Differentials />
-      <Comparison />
       <Faq />
       <Contact />
       <Footer />
       <WhatsAppFab />
+
       <Toaster position="top-right" richColors closeButton />
     </main>
   );
