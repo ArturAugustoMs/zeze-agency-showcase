@@ -33,7 +33,7 @@ import aboutWorkspace from "@/assets/about-workspace.jpg";
 import projectRestaurant from "@/assets/project-restaurant.jpg";
 import projectBarbershop from "@/assets/project-barbershop.jpg";
 import projectCafe from "@/assets/project-cafe.jpg";
-import zezeLogo from "@/assets/favicon.png";
+import zezeLogo from "@/assets/zeze-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -321,7 +321,7 @@ function Stats() {
   ];
   return (
     <section className="border-y border-hairline bg-surface">
-      <div className="container-x grid grid-cols-2 lg:grid-cols-4 divide-x divide-hairline">
+      <div className="container-x grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-hairline max-w-5xl mx-auto">
         {items.map((it, idx) => (
           <div key={idx} className="py-10 md:py-14 px-4 md:px-8 text-center" data-reveal>
             <div className="heading-display text-4xl md:text-5xl lg:text-6xl text-foreground">
