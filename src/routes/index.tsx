@@ -33,7 +33,7 @@ import aboutWorkspace from "@/assets/about-workspace.jpg";
 import projectRestaurant from "@/assets/project-restaurant.jpg";
 import projectBarbershop from "@/assets/project-barbershop.jpg";
 import projectCafe from "@/assets/project-cafe.jpg";
-import zezeLogo from "@/assets/favicon.png";
+import zezeLogo from "@/assets/zeze-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
